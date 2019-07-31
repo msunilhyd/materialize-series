@@ -1,0 +1,45 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Modals</h2>
+
+        <a href="#terms" class="btn orange modal-trigger">Terms & Conditions</a>
+        <div class="modal" id="terms">
+            <div class="modal-content">
+                <h4>Terms and conditions</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae recusandae enim quidem ipsum modi vero voluptatem. Explicabo, iusto quam enim harum impedit incidunt deserunt corporis modi voluptatibus aspernatur voluptate esse.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="modal-close btn orange">Agree & Close</a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.modal').modal();
+        });
+    </script>
+</body>
+
+</html>
